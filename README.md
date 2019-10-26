@@ -3,18 +3,26 @@ Dataset for spatial concept formation
 
  - `/CC4F_turtlebot2/`: Creation-Core Building (4th floor) in Ritsumeikan University, using TurtleBot 2
    - `/map/`: Files on an environmental map (including formats supported by ROS)
+   - Training data: position and words 
  - `/SIGVerseV2/`: Home enviornment (One room) on SIGVerse version 2
     - `/map/`: Files on an environmental map
     - `/stream_data/`: stream data of observation and latent variables for MCL
+    - Training data: position and words 
  - `/albertB/`: [albert-B-laser-vision-dataset](https://dspace.mit.edu/handle/1721.1/62291) from [the Robotics Data Set Repository (Radish)](http://radish.sourceforge.net/)
     - `/map/`: Files on an environmental map (including formats supported by ROS)
+    - Training data: position, words and image fetures
     - `/img_feature/`: Image features obtained using a pretrained CNN 
       - `/places205/`: Places205-AlexNet
       - `/places365/`: Places365-ResNet
 
+
 NEW  
  - `/SIGVerseV3/`: Home enviornments on SIGVerse version 3
     - `/similar/3LDK_small/`: Small dataset in 10 similar home enviornments
+
+
+Speech signal data is not included in the dataset.  
+
 
 ## References
 These data sets are used in the following papers:
