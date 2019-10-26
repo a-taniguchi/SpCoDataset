@@ -12,6 +12,10 @@ Dataset for spatial concept formation
       - `/places205/`: Places205-AlexNet
       - `/places365/`: Places365-ResNet
 
+NEW  
+ - `/SIGVerseV3/`: Home enviornments on SIGVerse version 3
+    - `/similar/3LDK_small/`: Small dataset in 10 similar home enviornments
+
 ## References
 These data sets are used in the following papers:
  - Akira Taniguchi, Tadahiro Taniguchi, and Tetsunari Inamura, "Spatial Concept Acquisition for a Mobile Robot that Integrates Self-Localization and Unsupervised Word Discovery from Spoken Sentences", IEEE Transactions on Cognitive and Developmental Systems, Vol. 8, No. 4, pp.285-297, 2016.
